@@ -1,0 +1,293 @@
+.redes{
+    width: 50px;
+    height: 50px;
+}
+
+#hosting{
+    margin-top:30px;
+}
+.encabezado-img{
+    background-image: url(fotohost1.webp);
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+.contenedor{
+    padding: 0px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo{
+    color:#29739B;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+    
+}
+    body{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+    header{
+        background-color: #b5f1f1d5;
+        text-align: center;
+        padding: 10px 0;
+        width: 100%;
+        height: 300px;
+        /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(194, 75%, 76%, 0.671), hsla(192, 45%, 52%, 0.747)), url(imagenes/portada.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(202, 78%, 69%, 0.555), hsla(194, 92%, 53%, 0.712)), url(imagenes/portada.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    }
+    .navbar{
+        margin-left: 400px;
+    }
+    img{
+        text-align: right;
+    }
+    nav a{
+        display: inline-block;
+        text-decoration: none;
+        color: #000000;
+        margin: 0 30px;
+        padding: 5px 15px;
+        border-radius: 30px;
+    }
+    nav a:hover{
+        background-color: #000;
+        color: #fff !important;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+
+
+
+image{
+    text-align: center;
+}
+
+body {
+    background-image: url('imagenes/fotohost1.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+
+header .textos-header{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.textos-header h1{
+    font-size: 50px;
+    color: #fff;
+}
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+
+h2{
+    margin-top: 5%;
+}
+.imagen-about-us{
+    margin-left: 10%;
+}
+
+.contenido-textos{
+    margin-right: 20%;
+}
+/* About us */
+
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.imagen-about-us{
+    width: 24%;
+    height: 50%;
+}
+
+.imagen-empresa{
+    width: 20%;
+    height: 50%;
+}
+
+.sobre-nosotros .contenido-textos{
+    width: 48%
+}
+
+.contenido-textos h3{
+    margin-bottom: 15px;
+}
+
+.contenido-textos h3 span{
+    background: rgb(17, 45, 172);
+    color:#fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+/* Our team*/
+
+.about-tipos{
+    padding-bottom: 30px;
+}
+
+.tipos-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tipos-ind{
+    width: 28%;
+    text-align: center;
+}
+
+.tipos-ind img{
+    width: 50%;
+}
+
+.tipos-ind h3{
+    margin: 10px 0;
+}
+
+.servicio-ind p{
+    font-weight: 300;
+    text-align: justify;
+}
+
+/* footer */
+
+footer{
+    background: rgba(34, 132, 245, 0.219);
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+
+.emppublicas{
+    margin-inline: 50px;
+}
+
+.tipos-ind-table1{
+    margin-left: 330px
+}
+.tipos-ind-table2{
+    margin-left: 270px;
+}
+ 
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgba(138, 172, 192, 0.247);
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #456fa054;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #5aa1b333;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: rgba(46, 119, 168, 0.548);
+    color: black;
+  }
+  
+  .previous {
+    background-color: rgba(34, 132, 245, 0.219);
+    color: black;
+    text-align: right;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
